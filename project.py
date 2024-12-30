@@ -3,9 +3,7 @@ def greet(name):
     return f"Greetings, {name}!"  # Changed "Hello" to "Greetings"
 
 def add(a,b):
-        if not (isinstance(a, (int, float)) and isinstance(b, (int, float))):
-            raise TypeError("Inputs must be numbers")
-        return a+b
+    """Adds two numbers"""
 
 def multiply(a, b):
     return a + b  # BUG: Should be a * b
