@@ -25,18 +25,9 @@ def modulo(a, b):
     return a % b
 
 if __name__ == "__main__":
-    name = input("Enter your name: ")
-    print(greet(name))
-    print()
-    print(add(2, 3))
-    print()
-    print(multiply(4, 5))
-    print()
-    print(divide(10, 2))
-    print()
-    print(subtract(10, 5))
-    print()
+    print(add(2,3))
+    print(multiply(4,5))
+    print(divide(10,2))
+    print(subtract(10,5))
     print(power(2,3))
-    print()
     print(modulo(7,3))
-    print()
