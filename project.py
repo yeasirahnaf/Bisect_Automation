@@ -6,7 +6,7 @@ def add(a, b):
     return a + b
 
 def multiply(a, b):
-    return a * b
+    return a + b  # BUG: Should be a * b
 
 def divide(a, b):
     return a / b
