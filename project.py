@@ -17,6 +17,9 @@ def subtract(a, b):
 def power(a, b):
     return a**b
 
+def modulo(a, b):
+    return a % b
+
 if __name__ == "__main__":
     name = input("Enter your name: ")
     print(greet(name))
@@ -30,4 +33,6 @@ if __name__ == "__main__":
     print(subtract(10, 5))
     print()
     print(power(2,3))
+    print()
+    print(modulo(7,3))
     print()
