@@ -23,10 +23,9 @@ def modulo(a, b):
     return a % b
 
 if __name__ == "__main__":
-    print(add(2,3)) #5
-    print(multiply(4,5)) #20
-    print(divide(10,2)) #5.0
-    print(subtract(10,5)) #5
-    print(power(2,3)) #8
-    print(modulo(7,3)) #1
-    print(subtract(10,5))
+    print("Add:",add(2,3))
+    print("Multiply:",multiply(4,5))
+    print("Divide:",divide(10,2))
+    print("Subtract:",subtract(10,5))
+    print("Power:",power(2,3))
+    print("Modulo:",modulo(7,3))
