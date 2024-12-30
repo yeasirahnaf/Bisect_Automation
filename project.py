@@ -14,8 +14,12 @@ def divide(a, b):
 def subtract(a, b):
     return a - b
 
+def power(a, b):
+    return a**b
+
 if __name__ == "__main__":
     print(greet("World"))
     print(add(2, 3))
     print(multiply(4, 5))
     print(divide(10, 2))
+    print(power(2,3))
