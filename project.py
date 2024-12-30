@@ -9,7 +9,9 @@ def multiply(a, b):
     return a + b  # BUG: Should be a * b
 
 def divide(a, b):
-    return a // b  # BUG: Integer division, should be /
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
 
 def subtract(a, b):
     return a - b
