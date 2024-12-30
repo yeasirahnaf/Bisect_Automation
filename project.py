@@ -29,3 +29,4 @@ if __name__ == "__main__":
     print(subtract(10,5)) #5
     print(power(2,3)) #8
     print(modulo(7,3)) #1
+    print(subtract(10,5))
