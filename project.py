@@ -3,7 +3,7 @@ def greet(name):
     return f"Greetings, {name}!"  # Changed "Hello" to "Greetings"
 
 def add(a,b):
-    """Adds two numbers"""
+    """Adds two numbers a and b."""
 
 def multiply(a, b):
     return a + b  # BUG: Should be a * b
